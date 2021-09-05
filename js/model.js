@@ -30,6 +30,6 @@ export const updateData = async function(itemID,newContent){
     headers: {
       'Content-Type': 'application/json;charset=utf-8',
     },
-    body: JSON.stringify(newContent)
+    body: JSON.stringify({a:5})
   })
 }
